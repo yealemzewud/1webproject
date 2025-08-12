@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yabu Habesha Clothes</title>
+  <meta name="description" content="Traditional Ethiopian clothing – Habesha Kemis, Netela, and more. Handmade with love.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo.jpg" alt="Yabu Habesha Clothes Logo" />
+      <span>Yabu Habesha Clothes</span>
+      <span lang="am">ያቡ ሀበሻ አልባሳት</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to <span class="brand">Yabu Habesha Clothes</span></h1>
+      <h1 lang="am">እንኳን ደህና መጡ ወደ <span class="brand">ያቡ ሃበሻ አልባሳት</span></h1>
+      <p class="tagline">Celebrating Ethiopian Culture Through Fashion</p>
+      <p class="description">
+        Discover elegant traditional wear, handmade with love and modern flair. From Habesha Kemis to Men’s Netela – we bring you authentic style.
+      </p>
+      <a href="#products" class="btn">Shop Now</a>
+
+      <div class="trust-badges">
+        <span>✅ Handmade</span>
+        <span>🚚 Fast Shipping</span>
+        <span>🎁 Custom Orders</span>
+      </div>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/yabu_habesha" target="_blank">Instagram</a> /
+        <a href="https://t.me/yabu_habesha" target="_blank">Telegram</a> /
+        <a href="https://www.tiktok.com/@yabuhabeshaclothes1" target="_blank">TikTok</a>
+      </div>
+    </div>
+  </section>
+<a href="cart.html" class="btn">🛒 View Cart</a>
+  <section id="products" class="products">
+    <h2>Featured Products</h2>
+    <h2 lang="am">የተመረቱ ምርቶቻችን</h2>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="img1.jpg" alt="White Habesha Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart </button>
+<script>
+  function addToCart(productName) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push(productName);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert(productName + " has been added to your cart!");
+  }
+</script>
+
+      </div>
+
+      <div class="product-card">
+        <img src="img2.jpg" alt="Men’s Shirt">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>3500 ETB</p>
+        <button onclick="addToCart('Men’s Shirt')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+
+      <div class="product-card">
+        <img src="img3.jpg" alt="Gold Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Gold Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+
+      <div class="product-card">
+        <img src="img4.jpg" alt="Red Pattern Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Red Pattern Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+
+      <div class="product-card">
+        <img src="img5.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+
+      <div class="product-card">
+        <img src="img6.jpg" alt="Modern Habesha Dress">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Modern Habesha Dress')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+
+      <div class="product-card">
+        <img src="img7.jpg" alt="Elegant Habesha Dress">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Elegant Habesha Dress')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+
+      <div class="product-card">
+        <img src="img8.jpg" alt="Colored Habesha Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Colored Habesha Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div> 
+      <div class="product-card">
+        <img src="img9.jpg" alt="Colored Habesha Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Colored Habesha Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+      <div class="product-card">
+        <img src="img10.jpg" alt="Colored Habesha Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Colored Habesha Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+      <div class="product-card">
+        <img src="img11.jpg" alt="Colored Habesha Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Colored Habesha Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+      <div class="product-card">
+        <img src="img12.jpg" alt="Colored Habesha Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Colored Habesha Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+      <div class="product-card">
+        <img src="img13.jpg" alt="Colored Habesha Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Colored Habesha Kemis')">Add to Cart</button> 
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+      <div class="product-card">
+        <img src="img14.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+      <div class="product-card">
+        <img src="img15.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div><div class="product-card">
+        <img src="img16.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div><div class="product-card">
+        <img src="img17.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div><div class="product-card">
+        <img src="img18.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div><div class="product-card">
+        <img src="img19.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div><div class="product-card">
+        <img src="img20.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div><div class="product-card">
+        <img src="img21.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div><div class="product-card">
+        <img src="img22.jpg" alt="Traditional White Kemis">
+        <h3>በተመጣጣኝ ዋጋ</h3>
+        <p>7000 ETB</p>
+        <button onclick="addToCart('Traditional White Kemis')">Add to Cart</button>
+        <button onclick="viewCart()" class="cart-btn">🛒 View Cart</button>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>TikTok: <a href="https://www.tiktok.com/@yabuhabeshaclothes1" target="_blank">yabuhabeshaclothes1</a></p>
+    <p>Phone: +251 939 842 323</p>
+    <p>Telegram: <a href="https://t.me/yabuhabeshacloshes" target="_blank">t.me/yabuhabeshacloshes</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Yabu Habesha Clothes. All rights reserved.</p>
+    <p lang="am">© 2025 ያቡ የሀበሻ ልብስ። መብት በሙሉ የተጠበቀ</p>
+  </footer>
+
+  <script>
+    function addToCart(productName) {
+      alert(productName + " has been added to your cart!");
+    }
+  </script>
+
+
+</body>
+</html>

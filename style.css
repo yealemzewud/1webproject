@@ -1,0 +1,314 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background: #2e1a12;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1200x400?text=Yabu+Habesha+Banner') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero .btn {
+  background: #e0a800;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.products {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card button {
+  margin-top: 0.5rem;
+  padding: 0.6rem;
+  background: #2e1a12;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact {
+  padding: 2rem;
+  background: #fff2e1;
+  text-align: center;
+}
+
+footer {
+  background: #2e1a12;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.hero {
+  background: url('your-image.jpg') center/cover no-repeat;
+  padding: 6rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.brand {
+  color: #ffd700;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.description {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.trust-badges {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.trust-badges span {
+  background: rgba(255,255,255,0.2);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.social-links {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.social-links a {
+  color: #ffd700;
+  text-decoration: underline;
+}
+.logo {
+display: flex;
+align-items: center;
+gap: 0.75rem;
+}
+
+.logo img {
+height: 50px;
+width: 50px;
+border-radius: 50%; /* Makes it circular /
+object-fit: cover; / Ensures image fits inside the circle /
+border: 2px solid #fff; / Optional white border /
+box-shadow: 0 2px 6px rgba(0,0,0,0.2); / Optional shadow */
+}
+
+.logo span {
+font-size: 1.4rem;
+font-weight: bold;
+color: #fff;
+}
+/* HERO SECTION */
+.hero {
+  background-image: url('images/hero-bg.jpg'); /* Add a soft cultural texture or fabric background */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for readability */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero h1[lang="am"] {
+  font-family: 'Noto Serif Ethiopic', serif; /* Use a nice Ethiopic font */
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.brand {
+  color: #FFD700; /* Gold color to signify luxury/culture */
+}
+
+.tagline {
+  font-size: 1.3rem;
+  margin: 15px 0;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #FFD700;
+  color: #000;
+  padding: 12px 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e6c200;
+}
+
+.trust-badges {
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+.trust-badges span {
+  margin: 0 10px;
+  background-color: rgba(222, 206, 206, 0.2);
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.social-links {
+  margin-top: 25px;
+  font-size: 1.1rem;
+}
+
+.social-links a {
+  color: #FFD700;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero h1[lang="am"] {
+    font-size: 1.8rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 0.95rem;
+    padding: 10px 24px;
+  }
+}
+.cart-btn {
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.cart-btn:hover {
+  background-color: #e6c200;
+}
